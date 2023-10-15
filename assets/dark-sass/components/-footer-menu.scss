@@ -28,7 +28,6 @@
   @media only screen and (max-width: 575px) {
     display: flex;
   }
-
 }
 .active-footer-menu a {
   i {
@@ -101,7 +100,7 @@
       color: $white-light;
       line-height: 10px;
     }
-    .more-dropdown.active-footer-menu{
+    .more-dropdown.active-footer-menu {
       color: $secondry !important;
     }
     .more-dropdown-menu {
