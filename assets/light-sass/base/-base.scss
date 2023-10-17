@@ -1,5 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: transparent #aaa;
   &::-webkit-scrollbar {
     width: 7px;
   }
