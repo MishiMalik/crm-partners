@@ -676,4 +676,7 @@ a {
     .overlay-show {
         display: block !important;
     }
+    .main-area{
+        overflow-y: auto;
+    }
 }

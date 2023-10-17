@@ -3,24 +3,40 @@ const table = $("#example").DataTable({
   language: {
     searchPlaceholder: "Search records",
   },
+  'columnDefs': [ {
+    'targets': 0, /* column index */
+    'orderable': false, /* true or false */
+ }]
 });
 const exampleinprogress = $("#example-inprogress").DataTable({
   responsive: true,
   language: {
     searchPlaceholder: "Search records",
   },
+  'columnDefs': [ {
+    'targets': 0, /* column index */
+    'orderable': false, /* true or false */
+ }]
 });
 const tableFailed = $("#example-failed").DataTable({
   responsive: true,
   language: {
     searchPlaceholder: "Search records",
   },
+  'columnDefs': [ {
+    'targets': 0, /* column index */
+    'orderable': false, /* true or false */
+ }]
 });
 const exampleQualify = $("#example-qualify").DataTable({
   responsive: true,
   language: {
     searchPlaceholder: "Search records",
   },
+  'columnDefs': [ {
+    'targets': 0, /* column index */
+    'orderable': false, /* true or false */
+ }]
 });
 const upcomingTable = $("#upcoming-table").DataTable({
   responsive: true,
@@ -34,12 +50,20 @@ const exampleRecurring = $("#example-recurring").DataTable({
   language: {
     searchPlaceholder: "Search records",
   },
+  'columnDefs': [ {
+    'targets': 0, /* column index */
+    'orderable': false, /* true or false */
+ }]
 });
 const upcomingCancelled = $("#example-cancelled").DataTable({
   responsive: true,
   searching: false,
   paging: false,
   info: false,
+  'columnDefs': [ {
+    'targets': 0, /* column index */
+    'orderable': false, /* true or false */
+ }]
 });
 
 // // Formatting function for row details - modify as you need

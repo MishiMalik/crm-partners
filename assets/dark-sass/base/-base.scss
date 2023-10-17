@@ -31,3 +31,10 @@ body {
 .theme-override {
   overflow: hidden;
 }
+
+.sorting_disabled{
+  &::before,
+  &::after{
+    display: none !important;
+  }
+}

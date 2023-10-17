@@ -138,6 +138,9 @@ body {
 .theme-override {
   overflow: hidden; }
 
+.sorting_disabled::before, .sorting_disabled::after {
+  display: none !important; }
+
 .carousel__slide {
   position: relative;
   display: block;

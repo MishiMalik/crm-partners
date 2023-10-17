@@ -112,7 +112,9 @@
   color: red; }
 
 body {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: transparent #aaa; }
   body::-webkit-scrollbar {
     width: 7px; }
   body::-webkit-scrollbar-track {
@@ -137,6 +139,9 @@ body {
 
 .theme-override {
   overflow: hidden; }
+
+.sorting_disabled::before, .sorting_disabled::after {
+  display: none !important; }
 
 .carousel__slide {
   position: relative;
