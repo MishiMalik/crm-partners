@@ -1,7 +1,10 @@
 .chat-body {
     height: 100vh !important;
     overflow-y: hidden !important;
-
+    @media only screen and (max-width: 991px) {
+      height: 100% !important;
+      overflow-y: scroll !important;
+    }
   }
   .chat__screen {
     height: 100%;
