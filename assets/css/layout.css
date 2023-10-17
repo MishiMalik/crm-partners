@@ -660,7 +660,9 @@ a {
         padding: 0
     }
 
-    ;
+    .main-area{
+        overflow-y: auto;
+    }
 
 }
 
@@ -676,7 +678,5 @@ a {
     .overlay-show {
         display: block !important;
     }
-    .main-area{
-        overflow-y: auto;
-    }
+   
 }
