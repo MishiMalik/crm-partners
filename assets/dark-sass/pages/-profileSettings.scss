@@ -1,0 +1,47 @@
+.remove-picture{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .upload-img-btn{
+    display: flex;
+  width: 142px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  border: 1px solid $secondry;
+  background-color: transparent;
+  color: $secondry;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 166.667% */
+  cursor: pointer;
+  margin-top: 15px;
+  cursor: pointer;
+  }
+  
+  .edit-img{
+    width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: white;
+  background: linear-gradient(0deg, rgba($secondry, 0.48) 0%, rgba($secondry, 0.48) 100%), lightgray 50% / cover no-repeat;
+  object-fit: cover;
+  }
+  
