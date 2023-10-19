@@ -59,7 +59,7 @@
                                 <p class="mb-0 pb-0">Super Admin</p>
                             </div>
                         </button>
-                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
 
                             <li><a class="dropdown-item" href="profile.html"><i
                                         class="bi bi-person me-3"></i>Profile</a>
@@ -80,7 +80,7 @@
 
                         <ul>
                             <!-- <li class="menu-item">
-                                <a href="index.html" >
+                                <a href="index.html">
                                     <span class="menu-icon">
                                         <i class="fa-duotone fa-grid-2"></i>
                                     </span>
@@ -109,7 +109,7 @@
                             </li> -->
 
                             <li class="menu-item">
-                                <a href="commission.html" class="active-menu">
+                                <a href="commission.html">
                                     <span class="menu-icon">
                                         <i class="fa-duotone fa-chart-mixed-up-circle-dollar"></i>
                                     </span>
@@ -164,8 +164,8 @@
                                 </a>
                             </li> -->
 
-                            <li class="menu-item">
-                                <a href="clients.html">
+                            <li class="menu-item" >
+                                <a href="clients.html"  class="">
                                     <span class="menu-icon">
                                         <i class="fa-duotone fa-users-line"></i>
 
@@ -342,7 +342,7 @@
                         <a href="">
                             <div class="actions-card">
                                 <i class="fa-duotone fa-users-line"></i>
-                                <p class="mb-0 pb-0">
+                                <p class="mb-0 pb-0 ">
                                     clients
                                 </p>
                             </div>
@@ -692,193 +692,59 @@
         <main class="content ">
             <div class="container-fluid px-lg-0">
                 <div class="row justify-content-center">
-                    <div class="col-xl-12">
+                    <div class="col-xl-12 ">
                         <div class="row">
-                            <div class="col-xl-4 col-md-4 mb-3">
-                                <div class="box">
-                                    <div class="d-flex justify-content-between align-items-start">
-                                        <h1 class="box-heading">Total Sales</h1>
-                                        <select class="form-select select-duration mb-1"
-                                            aria-label="Default select example">
-                                            <option value="1">Weekly</option>
-                                            <option selected>Monthly</option>
-                                            <option value="2">6 Months</option>
-                                            <option value="2">Yearly</option>
-                                        </select>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <div class=" flex-grow-1  box-text d-flex align-items-center">
-
-                                            <span class="box-value">102</span>
-
-                                        </div>
-                                        <div class="box-icon">
-                                            <i class="fa-solid fa-chart-mixed-up-circle-currency"></i>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-4 mb-3">
-                                <div class="box">
-                                    <div class="d-flex justify-content-between align-items-start">
-                                        <h1 class="box-heading">Total Revenue</h1>
-                                        <select class="form-select select-duration mb-1"
-                                            aria-label="Default select example">
-                                            <option selected value="1">Weekly</option>
-                                            <option>Monthly</option>
-                                            <option value="2">6 Months</option>
-                                            <option value="2">Yearly</option>
-                                        </select>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <div class=" flex-grow-1  box-text d-flex align-items-center">
-
-                                            <span class="box-value">$32</span>
-
-                                        </div>
-                                        <div class="box-icon">
-                                            <i class="fa-solid fa-chart-line-up"></i>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-4 mb-3">
-                                <div class="box">
-                                    <div class="d-flex justify-content-between align-items-start">
-                                        <h1 class="box-heading">Commission Earned</h1>
-                                        <select class="form-select select-duration mb-1"
-                                            aria-label="Default select example">
-                                            <option selected value="1">Weekly</option>
-                                            <option>Monthly</option>
-                                            <option value="2">6 Months</option>
-                                            <option value="2">Yearly</option>
-                                        </select>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <div class=" flex-grow-1  box-text d-flex align-items-center">
-
-                                            <span class="box-value">$32</span>
-
-                                        </div>
-                                        <div class="box-icon">
-                                            <i class="fa-duotone fa-money-bill-trend-up"></i>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
                             <div class="col-lg-12 h-100">
-                                <div class="box mb-3   ">
+                                <div class="box mb-3 box-p">
                                     <div class="flex-grow-1">
-                                        <h1 class="f-20 w-500 mb-3 text-dark-clr">Commission by Project</h1>
-                                        <div class="table-responsive-div">
-                                            <table id="upcoming-table" class="table data-table-style  ">
-                                                <thead>
-                                                    <tr>
-                                                        <th class="no-sort"></th>
-                                                        <th scope="col">#</th>
-                                                        <th scope="col">Client Name</th>
-                                                        <th scope="col">Bussiness Name</th>
-                                                        <th scope="col">Project Name</th>
-                                                        <th scope="col">Deal Close Date</th>
-                                                        <th scope="col">Deal Size</th>
-                                                        <th scope="col">Commission</th>
-                                                        <th scope="col">Status</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr class="">
-                                                        <td>
-                                                            <div class="d-flex align-items-center">
-                                                                <div class="table-arrow">
-                                                                    <!-- <i class="fa-duotone fa-circle-chevron-down"></i> -->
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td>1</td>
-                                                        <td>Jhon Doe</td>
-                                                        <td>Jhon D.</td>
-                                                        <td class="">
-                                                            <p title="Ecommerece Website lorem abscd"
-                                                                class="project-name mb-0 pb-0">Ecommerece Website</p>
-                                                        </td>
-                                                        <td>15 OCT 2023</td>
-                                                        <td>$300</td>
-                                                        <td>$50</td>
-                                                        <td><div class="ticket-open">Open</div></td>
-                                                    </tr>
-                                                    <tr class="">
-                                                         <td>
-                                                            <div class="d-flex align-items-center">
-                                                                <div class="table-arrow">
-                                                                    <!-- <i class="fa-duotone fa-circle-chevron-down"></i> -->
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td>1</td>
-                                                        <td>Jhon Doe</td>
-                                                        <td>Jhon D.</td>
-                                                        <td class="">
-                                                            <p title="Ecommerece Website lorem abscd"
-                                                                class="project-name mb-0 pb-0">Ecommerece Website</p>
-                                                        </td>
-                                                        <td>15 OCT 2023</td>
-                                                        <td>$300</td>
-                                                        <td>$50</td>
-                                                        <td><div class="ticket-replied">Earned</div></td>
-                                                    </tr>
-                                                    <tr class="">
-                                                     
-                                                         <td>
-                                                            <div class="d-flex align-items-center">
-                                                                <div class="table-arrow">
-                                                                    <!-- <i class="fa-duotone fa-circle-chevron-down"></i> -->
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td>1</td>
-                                                        <td>Jhon Doe</td>
-                                                        <td>Jhon D.</td>
-                                                        <td class="">
-                                                            <p title="Ecommerece Website lorem abscd"
-                                                                class="project-name mb-0 pb-0">Ecommerece Website</p>
-                                                        </td>
-                                                        <td>15 OCT 2023</td>
-                                                        <td>$300</td>
-                                                        <td>$50</td>
-                                                        <td><div class="ticket-waiting">Processing</div></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                        <div class="d-flex align-items-center justify-content-between mb-3 border-bottom pb-3">
+                                            <h1 class="f-20 w-500 mb-0 pb-0 text-dark-clr">Settings</h1>
                                         </div>
+                                        <form action="">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-lg-12">
+                                                        <div class="form-floating mb-3">
+                                                            <input type="text" class="form-control crm-input" id="old-pass"
+                                                                placeholder="Mickel">
+                                                            <label class="crm-label form-label" for="old-pass">Old Password<span
+                                                                    class="text-danger"></span></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-floating mb-3">
+                                                            <input type="text" class="form-control crm-input" id="new-password"
+                                                                placeholder="ABC">
+                                                            <label class="crm-label form-label" for="new-password">New Password<span
+                                                                    class="text-danger"></span></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-floating mb-3">
+                                                            <input type="text" class="form-control crm-input" id="confirm-password"
+                                                                placeholder="Mickel">
+                                                            <label class="crm-label form-label" for="confirm-password">Confirm Password<span
+                                                                    class="text-danger"></span></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="d-flex justify-content-lg-end justify-content-center mt-3 mb-3">
+                                                            <button type="button" class="modal-btn-cancel me-3"
+                                                                data-bs-dismiss="modal">Cancel</button>
+                                                            <button type="button" class="modal-btn-save ">Save </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row justify-content-center mt-lg-0 mt-2">
-                    <div class="col-md-7 mb-3">
-                        <div class="box h-100 ">
-                            <h1 class="f-20 w-500 mb-3 border-bottom pb-3 text-dark-clr">Regional Sales</h1>
-                            <div class="d-flex justify-content-center">
-                                <canvas id="regional-sales"></canvas>
-                            </div>
 
-                        </div>
-                    </div>
-                    <div class="col-md-5 mb-3">
-                        <div class="box h-100 d-flex flex-column">
-                            <h1 class="f-20 w-500 mb-3 border-bottom pb-3 text-dark-clr">Sales by Customer Location</h1>
-                            <div class="flex-grow-1  my-auto d-flex align-items-center">
-                                <div id="customer_location"></div>
-                            </div>
-
-                        </div>
-                    </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-lg-12">
@@ -892,143 +758,143 @@
         <div class="overlay"></div>
 
     </div>
-   <!-- menu footer -->
-   <footer class="menu-footer">
-    <!-- <div class="footer-menu-link ">
-        <a href="index.html">
-            <i class="fa-duotone fa-grid-2"></i>
-            Dashboard
-        </a>
-    </div> -->
-    <div class="footer-menu-link">
-        <a href="leads.html">
-            <i class="fa-duotone fa-people-group"></i>
-            Leads
-        </a>
-    </div>
-    <div class="footer-menu-link active-footer-menu">
-        <a href="commission.html">
-            <i class="fa-duotone fa-chart-mixed-up-circle-dollar"></i>
-            Commission
-        </a>
-    </div>
-    <div class="footer-menu-link">
-        <a href="chats.html">
-            <i class="fa-duotone fa-messages"></i>
-            Chats
-        </a>
-    </div>
-    <div class="footer-menu-link">
-        <a href="clients.html">
-            <i class="fa-duotone fa-users-line"></i>
-            Clients
-        </a>
-    </div>
-    <!-- <div class="footer-menu-link" id="show-more-menu">
-        <a>
-            <i class="fa-duotone fa-circle-ellipsis-vertical"></i>
-            More
-        </a>
-    </div> -->
-    <div class="footer-menu-link">
-        <a href="log-in.html">
-            <i class="fa-duotone fa-arrow-right-from-bracket"></i>
-            Logout
-        </a>
-    </div>
-</footer>
-<!--show more mobile popup -->
-<div class="menu-footer-popup">
-    <h3>More Menus</h3>
-    <div class="menu-footer-padding"></div>
-    <!-- <div class="d-flex align-items-center more-footer-link">
-        <a href="commission.html" class="d-flex align-items-center">
-            <div class="more-icon">
-                <i class="fa-duotone fa-chart-mixed-up-circle-dollar"></i>
-            </div>
-            Sales
-        </a>
-    </div> -->
-    <!-- <div class="d-flex align-items-center more-footer-link">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle more-dropdown" type="button" id="dropdownMenuButton1"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                <div class="more-icon">
-                    <i class="fa-duotone fa-file-invoice-dollar"></i>
-                </div>
-                Invoices
-            </button>
-
-            <ul class="dropdown-menu more-dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li class="menu-item">
-                    <a href="invoice-list.html">
-                        <span class="menu-title">-&nbsp;&nbsp;&nbsp;Invoices List</span>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="add-invoice.html">
-                        <span class="menu-title">-&nbsp;&nbsp;&nbsp;Add Invoices</span>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="edit-invoice.html">
-                        <span class="menu-title">-&nbsp;&nbsp;&nbsp;Edit Invoices</span>
-                    </a>
-                </li>
-
-            </ul>
+    <!-- menu footer -->
+    <footer class="menu-footer">
+        <!-- <div class="footer-menu-link ">
+            <a href="index.html">
+                <i class="fa-duotone fa-grid-2"></i>
+                Dashboard
+            </a>
+        </div> -->
+        <div class="footer-menu-link">
+            <a href="leads.html">
+                <i class="fa-duotone fa-people-group"></i>
+                Leads
+            </a>
         </div>
-
-    </div> -->
-    <div class="d-flex align-items-center more-footer-link">
-        <a href="clients.html">
-            <div class="more-icon">
+        <div class="footer-menu-link">
+            <a href="commission.html">
+                <i class="fa-duotone fa-chart-mixed-up-circle-dollar"></i>
+                Commission
+            </a>
+        </div>
+        <div class="footer-menu-link">
+            <a href="chats.html">
+                <i class="fa-duotone fa-messages"></i>
+                Chats
+            </a>
+        </div>
+        <div class="footer-menu-link">
+            <a href="clients.html">
                 <i class="fa-duotone fa-users-line"></i>
+                Clients
+            </a>
+        </div>
+        <!-- <div class="footer-menu-link" id="show-more-menu">
+            <a>
+                <i class="fa-duotone fa-circle-ellipsis-vertical"></i>
+                More
+            </a>
+        </div> -->
+        <div class="footer-menu-link">
+            <a href="log-in.html">
+                <i class="fa-duotone fa-arrow-right-from-bracket"></i>
+                Logout
+            </a>
+        </div>
+    </footer>
+    <!--show more mobile popup -->
+    <div class="menu-footer-popup">
+        <h3>More Menus</h3>
+        <div class="menu-footer-padding"></div>
+        <!-- <div class="d-flex align-items-center more-footer-link">
+            <a href="commission.html" class="d-flex align-items-center">
+                <div class="more-icon">
+                    <i class="fa-duotone fa-chart-mixed-up-circle-dollar"></i>
+                </div>
+                Sales
+            </a>
+        </div> -->
+        <!-- <div class="d-flex align-items-center more-footer-link">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle more-dropdown" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="more-icon">
+                        <i class="fa-duotone fa-file-invoice-dollar"></i>
+                    </div>
+                    Invoices
+                </button>
+
+                <ul class="dropdown-menu more-dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li class="menu-item">
+                        <a href="invoice-list.html">
+                            <span class="menu-title">-&nbsp;&nbsp;&nbsp;Invoices List</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="add-invoice.html">
+                            <span class="menu-title">-&nbsp;&nbsp;&nbsp;Add Invoices</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="edit-invoice.html">
+                            <span class="menu-title">-&nbsp;&nbsp;&nbsp;Edit Invoices</span>
+                        </a>
+                    </li>
+
+                </ul>
             </div>
 
-            Clients
-        </a>
+        </div> -->
+        <div class="d-flex align-items-center more-footer-link ">
+            <a href="clients.html">
+                <div class="more-icon">
+                    <i class="fa-duotone fa-users-line"></i>
+                </div>
+
+                Clients
+            </a>
+        </div>
+        <div class="d-flex align-items-center more-footer-link">
+            <a href="clients.html">
+                <div class="more-icon">
+                    <i class="bi bi-arrow-bar-left me-3"></i>
+                </div>
+
+                Logout
+            </a>
+        </div>
+        <!-- <div class="d-flex align-items-center more-footer-link">
+            <a href="partners.html">
+                <div class="more-icon">
+                    <i class="fa-duotone fa-user-group-simple"></i>
+                </div>
+
+                Partners
+            </a>
+        </div> -->
+
+        <!-- <div class="d-flex align-items-center more-footer-link">
+            <a href="staff.html">
+                <div class="more-icon">
+                    <i class="fa-duotone fa-user-tie"></i>
+                </div>
+
+                Staff
+            </a>
+        </div> -->
+        <!-- <div class="d-flex align-items-center more-footer-link">
+            <a href="support.html">
+                <div class="more-icon">
+                    <i class="fa-duotone fa-user-headset"></i>
+                </div>
+
+                Support
+            </a>
+        </div> -->
     </div>
-    <div class="d-flex align-items-center more-footer-link">
-        <a href="clients.html">
-            <div class="more-icon">
-                <i class="bi bi-arrow-bar-left me-3"></i>
-            </div>
-
-            Logout
-        </a>
-    </div>
-    <!-- <div class="d-flex align-items-center more-footer-link">
-        <a href="partners.html">
-            <div class="more-icon">
-                <i class="fa-duotone fa-user-group-simple"></i>
-            </div>
-
-            Partners
-        </a>
-    </div> -->
-
-    <!-- <div class="d-flex align-items-center more-footer-link">
-        <a href="staff.html">
-            <div class="more-icon">
-                <i class="fa-duotone fa-user-tie"></i>
-            </div>
-
-            Staff
-        </a>
-    </div> -->
-    <!-- <div class="d-flex align-items-center more-footer-link">
-        <a href="support.html">
-            <div class="more-icon">
-                <i class="fa-duotone fa-user-headset"></i>
-            </div>
-
-            Support
-        </a>
-    </div> -->
-</div>
 
 
 
@@ -1036,7 +902,7 @@
 
     <div id="overlay-sidebar"></div>
 
-
+  
 
     <!-- Jquery -->
     <script src="assets/Js/jquery.js"></script>
@@ -1050,17 +916,12 @@
     <script src="assets/bootstrap5/js/bootstrap.min.js"></script>
     <script src="assets/Js/app.js"></script>
     <script src="assets/Js/layout.js"></script>
-    <!-- Resources -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Resources -->
-    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-    <script src="assets/Js/charts.js"></script>
+
     <script src="https://cdn.datatables.net/v/dt/dt-1.13.6/datatables.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
     <script src="assets/Js/table.js"></script>
+   
+
 
 </body>
 

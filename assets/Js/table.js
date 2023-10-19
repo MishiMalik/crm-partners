@@ -43,6 +43,10 @@ const upcomingTable = $("#upcoming-table").DataTable({
   searching: false,
   paging: false,
   info: false,
+  'columnDefs': [ {
+    'targets': 0, /* column index */
+    'orderable': false, /* true or false */
+ }]
 });
 
 const exampleRecurring = $("#example-recurring").DataTable({
